@@ -60,6 +60,7 @@ If running in Docker, these are already installed.
 
 ## Prometheus Configuration
 Example job (scraping exporter at 192.168.1.2:8000 for iLO host 192.168.1.23 ). Add to prometheus.yml:
+
     scrape_configs:
       - job_name: 'host_192.168.1.23'
         metrics_path: '/metrics'
