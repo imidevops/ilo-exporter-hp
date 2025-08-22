@@ -90,9 +90,6 @@ The dashboard includes panels for:
 - Power supply status
 - RAID status
 
-## Notes & Tips
-- If SNMP MIBs aren’t loading in the container, ensure `/etc/snmp/snmp.conf` contains:
-      mibs +ALL
 - If your script calls external tools (snmpwalk, ssh, curl, ipmitool), ensure they’re installed in the image (the Dockerfile should apt-get install them).
 - Use `--network host` so the 
 
