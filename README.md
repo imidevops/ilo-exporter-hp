@@ -1,4 +1,4 @@
-# ilo-exporter-hp
+# hp-ilo-exporter-prometheus
 Imran's ILO Exporter for HP servers
 
 # iLO Exporter
@@ -81,8 +81,6 @@ Import the provided dashboard:
 <img width="1114" height="434" alt="image" src="https://github.com/user-attachments/assets/902adb7f-b492-4417-8134-be3261f1ccd9" />
 
 
-
-
 The dashboard includes panels for:
 - Disk health
 - Disk temperature
@@ -90,6 +88,9 @@ The dashboard includes panels for:
 - Power supply status
 - RAID status
 
-- If your script calls external tools (snmpwalk, ssh, curl, ipmitool), ensure they’re installed in the image (the Dockerfile should apt-get install them).
-- Use `--network host` so the 
+Key Words:
+- HP iLO exporter
+- Prometheus exporter
+- Grafana dashboard
+- hardware monitoring
 
